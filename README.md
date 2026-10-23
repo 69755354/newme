@@ -43,6 +43,14 @@ python3 tools/quotation_verify.py --project "ProjectName" --cad cad_quantities.j
 
 ## Skills
 
+[**newme office — 完整双视图办公室**](skills/newme-office/)
+
+Complete modern and pixel offices, animated staff and CEO, live portable tasks, tap/yelp reactions and applause. No GPT account required. [Preview and installation](skills/newme-office/README.md) · [Skill instructions](skills/newme-office/SKILL.md) · [Connect any tool](skills/newme-office/assets/app/INTEGRATION.md).
+
+### Interaction-only component
+
+The following is the smaller standalone interaction module. For the complete office, install **newme-office** above.
+
 [**newme-interactions — 拍一下，叫一声**](skills/newme-interactions/)
 
 A self-contained agent skill with `SKILL.md`, a local installer, and bundled source for microphone impact detection, cartoon whip/yelp reactions and applause. Runs with Node.js 22+ and a browser; no GPT account or model SDK required. [Skill and installation](skills/newme-interactions/README.md) · [Agent instructions](skills/newme-interactions/SKILL.md) · [Integration guide](skills/newme-interactions/assets/app/INTEGRATION.md).

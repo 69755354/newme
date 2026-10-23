@@ -1,0 +1,6 @@
+/* Keep the complete room layout; adapt task controls to any local tool. */
+#codex-usage,#pair-show,#pair-area,#cloud-limit{display:none!important}
+#portable-guide,#portable-feedback,#command-dialog{max-width:min(680px,94vw);max-height:90vh;overflow:auto;border:1px solid #bbcbc4;border-radius:16px;padding:24px}
+.command-field input,.command-field textarea,#feedback-text,.portable-fields select{box-sizing:border-box;width:100%;font:inherit;padding:10px;border:1px solid #b9cbc3;border-radius:8px;background:var(--panel,#fff);color:var(--text,#263b34)}
+.portable-fields{display:grid;grid-template-columns:1fr 1fr;gap:16px}.portable-fields label{display:grid;gap:8px}#portable-guide li{margin:14px 0;line-height:1.6}#portable-guide code{overflow-wrap:anywhere}#clear-samples{font-size:13px}.header-tools{flex-wrap:wrap}
+@media(max-width:700px){#portable-add-task{font-size:12px}.portable-fields{grid-template-columns:1fr}#command-dialog{padding:16px}}

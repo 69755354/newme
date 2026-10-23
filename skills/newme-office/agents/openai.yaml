@@ -1,0 +1,4 @@
+interface:
+  display_name: "newme office"
+  short_description: "Full dual-view office with live tasks, yelps and applause"
+  default_prompt: "Use $newme-office to install the complete office with both views and connect my tasks without requiring a GPT account."

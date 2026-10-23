@@ -1,0 +1,31 @@
+.scene-style-picker{display:inline-flex;gap:7px;align-items:center;flex-shrink:0;font-size:12px;color:var(--muted)}
+/* Keep the scene, dock and expanded settings in page flow at every window size. */
+:root{--newme-header-height:66px;--newme-dock-height:60px}
+html[data-studio=architectural] body{overflow-x:hidden;overflow-y:auto}
+html[data-studio=architectural] main{height:auto;min-height:calc(100dvh - var(--newme-header-height));padding:0}
+html[data-studio=architectural] .workspace-grid{height:max(440px,calc(100dvh - var(--newme-header-height) - var(--newme-dock-height) - 46px));min-height:0}
+html[data-studio=architectural] #studio-dock{position:relative;inset:auto;height:var(--newme-dock-height);overflow-x:auto}
+html[data-studio=architectural] #studio-options{position:relative;margin:0;padding:0 28px 18px;background:var(--white);border-top:1px solid var(--line)}
+html[data-studio=architectural] #studio-options>summary{min-height:46px;padding:13px 0;font-size:13px;list-style-position:inside}
+html[data-studio=architectural] #studio-options:not([open]){padding-bottom:0}
+html[data-studio=architectural] .studio-options-body{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px 24px;padding:8px 0 12px}
+html[data-studio=architectural] .studio-options-body>#teams{grid-column:1/-1}
+html[data-studio=architectural] .studio-options-body>.command-panel,html[data-studio=architectural] .studio-options-body>.usage-panel{margin-top:0}
+@media(max-width:650px){:root{--newme-header-height:57px;--newme-dock-height:56px}html[data-studio=architectural] #studio-options{padding-left:12px;padding-right:12px}html[data-studio=architectural] .studio-options-body{grid-template-columns:1fr}}
+.brand .newme-brand-mark{width:141px;height:48px;object-fit:contain;border-radius:4px}.brand .newme-brand-office{font-size:19px;letter-spacing:-.5px;font-weight:600}
+.boss-controls{left:50%!important;transform:translateX(-50%)}
+.scene-style-picker select{border:1px solid var(--line);color:var(--ink);background:var(--white);border-radius:6px;padding:6px 9px;font:inherit;max-width:135px}
+.boss-controls{position:absolute;z-index:7;left:26px;bottom:83px;display:flex;flex-wrap:wrap;align-items:center;gap:7px;max-width:340px;padding:10px 12px;border:1px solid var(--line);border-radius:9px;background:#fffffff0;box-shadow:0 3px 16px #233a2e0d;color:#29473d;font-size:12px}
+.boss-controls label{display:flex;align-items:center;gap:5px;font-weight:600}.boss-controls input{accent-color:#286e56}.boss-controls button{border:1px solid #d9e4de;border-radius:5px;padding:6px 8px;background:#f6faf7;color:#355b4b;box-shadow:none;font:inherit}.boss-controls button:hover{background:#e9f4ee}.boss-controls button[aria-pressed=true]{background:#286e56;color:#fff;border-color:#286e56}.boss-controls small{width:100%;font-size:10px;color:#6c7d75}.boss-controls[data-hidden=true] button,.boss-controls[data-hidden=true] small{display:none}
+.office-panel.focus-mode .boss-controls{bottom:22px;left:22px;max-width:520px}body.studio-list-mode .boss-controls{display:none}
+.focus-style-picker{display:none!important}.focus-mode .focus-style-picker{display:inline-flex!important}
+@media(max-width:650px){.boss-controls{left:12px!important;transform:none}}
+@media(max-width:650px){.brand .newme-brand-mark{width:94px;height:32px}.brand .newme-brand-office{font-size:14px}}
+html[data-scene=pixel] #office-viewport{background:#cdd5c6;overflow:auto}
+html[data-scene=pixel] #office-canvas{position:absolute;left:0;image-rendering:pixelated}
+html[data-scene=pixel] #seat-overlay button.seat{display:block;position:absolute;background:transparent!important;border:0!important;box-shadow:none!important;transform:none!important;padding:0!important;border-radius:4px;font-size:11px!important}
+html[data-scene=pixel] #seat-overlay button.seat.selected{outline:2px solid #4b8d6d;outline-offset:-2px}
+html[data-scene=pixel] #seat-overlay .speech-bubble{display:flex;align-items:center;gap:5px;max-width:138px;background:#fffffff2;border:1px solid #aabcab;box-shadow:0 2px 0 #97a78d;padding:5px 7px;border-radius:3px;font:11px/1.4 "Segoe UI","Microsoft YaHei UI",sans-serif;color:#2d4535}
+html[data-scene=pixel] #seat-overlay .speech-bubble>span{overflow:hidden;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;white-space:normal}
+html[data-scene=pixel] #seat-overlay .speech-bubble i{width:5px;height:5px;border-radius:0;flex-shrink:0}
+@media(max-width:650px){#studio-dock{gap:3px;overflow-x:auto}#studio-dock>.scene-style-picker{font-size:10px;gap:3px}#studio-dock>.scene-style-picker>span{display:none}.scene-style-picker select{max-width:95px;padding:6px 3px}#studio-dock .dock-divider{display:none}#studio-dock #sound-toggle{font-size:0}#studio-dock #sound-toggle span{display:none}#studio-dock #sound-toggle img{width:16px}.boss-controls{bottom:72px;left:12px;max-width:calc(100% - 24px);font-size:11px;padding:8px 9px;gap:5px}.boss-controls small{display:none}.boss-controls button{padding:5px 7px}.app-header .brand{font-size:18px;letter-spacing:-.6px;gap:6px}.app-header .brand svg{display:none}.app-header .view-switch button{font-size:10px;padding:7px 5px}.app-header{gap:5px}.header-tools{gap:3px}.header-tools .icon-button{width:28px;height:28px}.workspace-heading h1{font-size:18px}.side-panel>#task-details{bottom:126px}}

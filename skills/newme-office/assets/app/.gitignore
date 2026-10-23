@@ -1,0 +1,5 @@
+.newme-office/
+.workroom/
+.env
+node_modules/
+*.log
