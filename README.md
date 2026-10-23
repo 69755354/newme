@@ -40,6 +40,13 @@ python3 tools/quotation_verify.py --project "ProjectName" --cad cad_quantities.j
 - Gemini QA: `GEMINI_API_KEY` env var (optional fallback chain)
 - Quotation verify: `libreoffice` (for PDF text extraction)
 
+
+## Standalone interaction kit
+
+[**newme interactions — 拍一下，叫一声**](apps/newme-interactions/)
+
+Microphone impact detection, cartoon whip/yelp reactions and applause, with a reusable frontend controller and optional feedback webhook. Runs locally with Node.js 22+ and a browser; no GPT account or model SDK required. [Source, preview and setup](apps/newme-interactions/README.md) · [Integration guide](apps/newme-interactions/INTEGRATION.md).
+
 ## License
 
 MIT — see [LICENSE](LICENSE).

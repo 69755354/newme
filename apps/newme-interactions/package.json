@@ -1,0 +1,10 @@
+{
+  "name": "newme-interactions",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Local microphone impact detection, cartoon reactions and optional feedback webhooks. No GPT account required.",
+  "license": "MIT",
+  "engines": { "node": ">=22" },
+  "scripts": { "start": "node server.mjs", "test": "node --test tests/*.test.mjs", "sounds": "node scripts/make-sounds.mjs" }
+}

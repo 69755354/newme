@@ -1,0 +1,9 @@
+CC0 1.0 Universal
+
+The cartoon-pain-1.wav, cartoon-pain-2.wav and applause.wav files in this folder
+were procedurally generated for NewMe. They contain no recorded human voices.
+To the extent possible under law, the contributors waive copyright and related
+rights in these generated sound files under CC0 1.0 Universal:
+https://creativecommons.org/publicdomain/zero/1.0/
+
+The generation code is covered by the project's MIT license.
