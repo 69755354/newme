@@ -41,11 +41,11 @@ python3 tools/quotation_verify.py --project "ProjectName" --cad cad_quantities.j
 - Quotation verify: `libreoffice` (for PDF text extraction)
 
 
-## Standalone interaction kit
+## Skills
 
-[**newme interactions — 拍一下，叫一声**](apps/newme-interactions/)
+[**newme-interactions — 拍一下，叫一声**](skills/newme-interactions/)
 
-Microphone impact detection, cartoon whip/yelp reactions and applause, with a reusable frontend controller and optional feedback webhook. Runs locally with Node.js 22+ and a browser; no GPT account or model SDK required. [Source, preview and setup](apps/newme-interactions/README.md) · [Integration guide](apps/newme-interactions/INTEGRATION.md).
+A self-contained agent skill with `SKILL.md`, a local installer, and bundled source for microphone impact detection, cartoon whip/yelp reactions and applause. Runs with Node.js 22+ and a browser; no GPT account or model SDK required. [Skill and installation](skills/newme-interactions/README.md) · [Agent instructions](skills/newme-interactions/SKILL.md) · [Integration guide](skills/newme-interactions/assets/app/INTEGRATION.md).
 
 ## License
 

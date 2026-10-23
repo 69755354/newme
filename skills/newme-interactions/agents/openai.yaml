@@ -1,0 +1,4 @@
+interface:
+  display_name: "newme interactions"
+  short_description: "Install local tap reactions, comic yelps and applause"
+  default_prompt: "Use $newme-interactions to install the local interaction kit in my workspace and verify it without enabling the microphone."
